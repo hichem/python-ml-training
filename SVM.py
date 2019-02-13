@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import sys
 
 # Importing the dataset
-dataset = pd.read_csv('Social_Network_Ads.csv')
+dataset = pd.read_csv('data/Social_Network_Ads.csv')
 
 #print("Dataset: ", dataset)
 X=dataset.iloc[:,[1,2,3]].values

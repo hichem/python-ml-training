@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 
 # Importing the dataset
-dataset = pd.read_csv('Churn_Modelling.csv')
+dataset = pd.read_csv('data/Churn_Modelling.csv')
 print("Dataset: ", dataset)
 
 X = dataset.iloc[:,3:13].values

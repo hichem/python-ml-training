@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 # Importing the dataset
 
-dataset = pd.read_csv('Salary_Data.csv')
+dataset = pd.read_csv('data/Salary_Data.csv')
 
 
 # dimensions
